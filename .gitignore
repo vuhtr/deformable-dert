@@ -1,4 +1,3 @@
-*/*.pyc
-*/*.pth
-5k_coco/
 *__pycache__*
+*.pth*
+5k_coco/
