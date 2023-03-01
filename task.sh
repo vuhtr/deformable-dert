@@ -27,6 +27,9 @@ source activate deformable_dert
 # pip install gdown
 pip install -r requirements.txt
 
+# weights
+# gdown https://drive.google.com/uc?id=15I03A7hNTpwuLNdfuEmW9_taZMNVssEp
+
 nvidia-smi
 
 # CUDA operators
@@ -42,6 +45,7 @@ python -u main.py \
     --resume ./r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage-checkpoint.pth \
     --coco_path ./5k_coco \
     --num_classes 8 \
-    --epochs 50
+    --epochs 50 \
+    --batch_size 4
 
 conda deactivate
