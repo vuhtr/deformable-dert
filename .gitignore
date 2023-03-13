@@ -1,3 +1,4 @@
 *__pycache__*
 *.pth*
 5k_coco/
+inferences/*
